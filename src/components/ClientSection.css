@@ -1,0 +1,71 @@
+.client-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 24px;
+  width: 100%;
+  height: 60px;
+  box-sizing: border-box;
+  background-color: #fff;
+  margin: 4px 0 4px 4px;
+}
+
+.left-section {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+.user-icon,
+.dot-icon {
+  width: 24px;
+  height: 24px;
+}
+
+.left-section h3 {
+  font-size: 16px;
+  font-weight: 500;
+  color: #344054;
+}
+
+.right-section {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+}
+
+.right-section select {
+  width: 158px;
+  height: 32px;
+  padding: 6px 8px 6px 8px;
+  border: 0.5px solid #D0D5DD;
+  border-radius: 4px;
+  background-color: #fff;
+  font-family: 'Inter', sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  color: #667085;
+  appearance: none;
+  background-image: url("data:image/svg+xml,%3Csvg width='16' height='16' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M4.5 6l3.5 4 3.5-4' stroke='%23667085' stroke-width='1.5'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 8px center;
+  background-size: 16px;
+  cursor: pointer;
+}
+
+.right-section select:focus {
+  outline: none;
+  border-color: #D0D5DD;
+}
+
+.right-section select option {
+  font-size: 12px;
+  font-weight: 400;
+  color: #667085;
+  width: 20px;
+  height: 20px;
+}
+
+.icon {
+  color: #667085;
+}

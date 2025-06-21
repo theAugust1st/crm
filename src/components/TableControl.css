@@ -1,0 +1,59 @@
+.table-control {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 56px;
+  padding: 12px 0;
+}
+.right-tabs{
+  display: flex;
+  align-items: center;
+  border-radius: 4px;
+  padding: 6px 12px;
+  background-color: #7474c9;
+  cursor: pointer;
+  gap: 6px;
+  color: #fff;
+}
+.btn {
+  border: none;
+  background: none;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 400;
+}
+.new-client-btn{
+  font-weight: 500;
+}
+.left-tabs {
+  display: flex;
+  height: 25px;
+  align-items: center;
+  gap: 10px;
+}
+.btn-tabs {
+  color: #344054;
+  padding: 4px 6px;
+  cursor: pointer;
+}
+.active {
+  border-bottom: 1px solid #4AC86E;
+}
+.input-name{
+  display: flex;
+  flex-direction: column;
+}
+.input-name input,
+.client-table input[type="text"] {
+  border: none;
+  outline: none;
+  background: transparent;
+  font-size: 13px;
+  color: #999;
+  width: 100%;
+}
+
+.input-name input::placeholder,
+.client-table input[type="text"]::placeholder {
+  color: #999;
+}

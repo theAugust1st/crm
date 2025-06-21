@@ -1,0 +1,149 @@
+.filter-control {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding:0 24px;
+  background-color: #fff;
+  border-bottom: 0.5px solid #EAECF0;
+  height: 72px;
+  width: 100%;
+  margin: 4px 0 0 4px;
+}
+
+.filter-left {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.filter-right {
+  display: flex;
+  align-items: center;
+  gap: 36px;
+}
+
+
+.search-container {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 8px;
+  border: 0.5px solid #D0D5DD;
+  border-radius: 4px;
+  background-color: #fff;
+  min-width: 220px;
+}
+
+.search-icon {
+  width: 20px;
+  height: 20px;
+  color: #667085;
+  flex-shrink: 0;
+}
+
+.search-input {
+  border: none;
+  outline: none;
+  font-size: 12px;
+  color: #667085;
+  background: transparent;
+}
+
+.filter-dropdown {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 8px;
+  border: 0.5px solid #D0D5DD;
+  border-radius: 4px;
+  background-color: #fff;
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.filter-icon,
+.calendar-icon {
+  width: 16px;
+  height: 16px;
+  flex-shrink: 0;
+}
+
+.filter-icon {
+  color: #667085;
+}
+
+.calendar-icon {
+  font-size: 14px;
+}
+
+.status-indicator {
+  color: #12B76A;
+  font-weight: bold;
+  font-size: 12px;
+  width: 16px;
+  height: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.dropdown-text {
+  font-size: 12px;
+  color: #667085;
+  flex: 1;
+}
+
+.dropdown-arrow {
+  width: 16px;
+  height: 16px;
+  color: #667085;
+  flex-shrink: 0;
+}
+
+/* Filter actions container with separators */
+.filter-actions {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.action-btn {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  border: none;
+  background: transparent;
+  font-size: 12px;
+  font-weight: 400;
+  color: #344054;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.action-btn:hover {
+  background-color: #F9FAFB;
+}
+
+.btn-icon {
+  width: 16px;
+  height: 16px;
+  color: #667085;
+}
+
+.bar {
+  width: 1px;
+  height: 20px;
+  background-color: #667085;
+}
+
+.clear-btn {
+  border: none;
+  background: transparent;
+  font-size: 14px;
+  font-weight: 500;
+  color: #4786E7;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
