@@ -6,7 +6,7 @@
   height: auto  ;
   width: 100%;
     overflow-y: auto;
-  max-height: 1000px;
+  max-height: 500px;
 }
 
 .client-table {
